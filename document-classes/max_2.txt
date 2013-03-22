@@ -1,0 +1,1 @@
+	public final int max(final String columnName, final String groupBy) throws DatabaseException;

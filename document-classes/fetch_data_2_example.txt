@@ -1,0 +1,8 @@
+	String[] columnNames = { Liquor.LIQUOR_TYPE };
+ 			
+	Liquor[] liquors = null;
+	try {
+		liquors = new Liquor().fetch(columnNames);
+	} catch(DatabaseException de) {
+		//Log it.
+	}

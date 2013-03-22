@@ -1,0 +1,7 @@
+	int count = 0;
+	
+	try {
+		count = new Liquor().count();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

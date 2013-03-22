@@ -1,0 +1,2 @@
+	public final void delete() throws DatabaseException { }
+ 

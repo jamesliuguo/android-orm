@@ -1,0 +1,7 @@
+	int groupConcat = 0;
+	
+	try {
+		groupConcat = new Liquor().total(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE);
+	} catch(DatabaseException de) {
+		//Log it.
+	}

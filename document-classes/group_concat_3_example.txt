@@ -1,0 +1,10 @@
+	int groupConcat = 0;
+	
+	String delimiter = ",";
+	String whereClause = Liquor.LIQUOR_TYPE + "='" + Liquor.LIQUOR_TYPE_BEER + "'";
+	
+	try {
+		groupConcat = new Liquor().total(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE, delimiter, whereClause);
+	} catch(DatabaseException de) {
+		//Log it.
+	}

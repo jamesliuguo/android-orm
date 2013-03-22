@@ -1,0 +1,1 @@
+	public final int count(final String whereClause) throws DatabaseException;

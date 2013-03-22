@@ -1,0 +1,17 @@
+
+	String whereClause = Liquor.LIQUOR_TYPE + "='" + Liquor.LIQUOR_TYPE_BEER + "'";
+  
+	try {
+		new Liquor().delete(whereClause);
+	} catch(DatabaseException de) {
+		//Log it.
+	}
+
+
+	OR
+
+	try {
+		new Liquor().delete("");
+	} catch(DatabaseException de) {
+		//Log it.
+	}

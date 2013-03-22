@@ -1,0 +1,1 @@
+	public final String groupConcat(final String columnName, final String delimiter, final String whereClause) throws DatabaseException;
