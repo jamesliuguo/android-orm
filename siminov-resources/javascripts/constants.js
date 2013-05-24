@@ -18,7 +18,7 @@ var andiorm_sample_link = "andiorm-sample.html";
 var sqlcipher_sample_link = "sqlcipher-sample.html";
 var library_sample_link = "library-sample.html";
 
-var andiorm_github_sample_link = "https://github.com/Siminov/andi-templates/tree/master/SIMINOV-ORM-TEMPLATE";
+var andiorm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
 
 var home_link = "index.html";
 
@@ -46,21 +46,21 @@ var begin_transaction_api_link = "https://github.com/Siminov/android-orm/wiki/Be
 var commit_transaction_api_link = "https://github.com/Siminov/android-orm/wiki/Commit-Transaction";
 var end_transaction_api_link = "https://github.com/Siminov/android-orm/wiki/End-Transaction";
 
-var andiorm_sample_view_link =  "https://github.com/Siminov/andi-templates/tree/master/SIMINOV-ORM-TEMPLATE";
-var andiorm_sample_apk_link = "https://github.com/Siminov/andi-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-ORM-TEMPLATE.apk?raw=true";
-var andiorm_sample_zip_link = "https://github.com/Siminov/andi-templates/archive/andiorm-template-v0.9-beta.zip";
-var andiorm_sample_tar_zip_link = "https://github.com/Siminov/andi-templates/archive/andiorm-template-v0.9-beta.tar.gz";
+var andiorm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
+var andiorm_sample_apk_link = "https://github.com/Siminov/android-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-ORM-TEMPLATE.apk?raw=true";
+var andiorm_sample_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.zip";
+var andiorm_sample_tar_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.tar.gz";
 
-var sqlcipher_sample_view = "https://github.com/Siminov/andi-templates/tree/master/SIMINOV-ORM-SQLCIPHER-TEMPLATE";
-var sqlcipher_sample_apk = "https://github.com/Siminov/andi-templates/blob/andiorm-sqlcipher-template-v0.9-beta/build/SIMINOV-ORM-SQLCIPHER-TEMPLATE.apk?raw=true";
-var sqlcipher_sample_zip = "https://github.com/Siminov/andi-templates/archive/andiorm-sqlcipher-template-v0.9-beta.zip";
-var sqlcipher_sample_tar = "https://github.com/Siminov/andi-templates/archive/andiorm-sqlcipher-template-v0.9-beta.tar.gz";
+var sqlcipher_sample_view = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-SQLCIPHER-TEMPLATE";
+var sqlcipher_sample_apk = "https://github.com/Siminov/android-templates/blob/andiorm-sqlcipher-template-v0.9-beta/build/SIMINOV-ORM-SQLCIPHER-TEMPLATE.apk?raw=true";
+var sqlcipher_sample_zip = "https://github.com/Siminov/android-templates/archive/andiorm-sqlcipher-template-v0.9-beta.zip";
+var sqlcipher_sample_tar = "https://github.com/Siminov/android-templates/archive/andiorm-sqlcipher-template-v0.9-beta.tar.gz";
 var sqlcipher_sample_jar = "https://github.com/Siminov/android-orm/blob/db-impl/SIMINOV-ORM-DB-SQLCIPHER-IMPL/build/siminov-orm-db-sqlcipher-impl.jar?raw=true";
 
-var library_sample_view = "https://github.com/Siminov/andi-templates/tree/master/SIMINOV-ORM-LIBRARY-TEMPLATE";
-var library_sample_jar = "https://github.com/Siminov/andi-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
-var library_sample_zip = "https://github.com/Siminov/andi-templates/archive/andiorm-library-template-v0.9-beta.zip";
-var library_sample_tar_zip = "https://github.com/Siminov/andi-templates/archive/andiorm-library-template-v0.9-beta.tar.gz";
+var library_sample_view = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-LIBRARY-TEMPLATE";
+var library_sample_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
+var library_sample_zip = "https://github.com/Siminov/android-templates/archive/andiorm-library-template-v0.9-beta.zip";
+var library_sample_tar_zip = "https://github.com/Siminov/android-templates/archive/andiorm-library-template-v0.9-beta.tar.gz";
 
 var members_link = "https://github.com/Siminov/followers";
 var google_groups_link = "https://groups.google.com/forum/?fromgroups#!forum/siminov";
@@ -72,8 +72,8 @@ var google_plus_link = "https://plus.google.com/103382306025504309831";
 var iorm_link = "https://github.com/Siminov/ios-orm.git";
 var windiorm_link = "https://github.com/Siminov/windows-orm.git";
 
-var dwn_andiorm_09_beta_jar = "https://github.com/Siminov/andiorm/blob/v0.9-beta/build/siminov-orm.jar?raw=true";
-var dwn_andiorm_library_09_beta_jar = "https://github.com/Siminov/andi-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
+var dwn_andiorm_09_beta_jar = "https://github.com/Siminov/android-orm/blob/v0.9-beta/build/siminov-orm.jar?raw=true";
+var dwn_andiorm_library_09_beta_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
 
 var siminov_github_link = "https://github.com/Siminov/android-orm";
 
