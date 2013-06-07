@@ -1,7 +1,0 @@
-	int minimum = 0;
-	
-	try {
-		minimum = new Liquor().min(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE);
-	} catch(DatabaseException de) {
-		//Log it.
-	}

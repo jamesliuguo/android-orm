@@ -1,1 +1,0 @@
-	public final Object[] fetch() throws DatabaseException;

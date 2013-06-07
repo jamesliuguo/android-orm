@@ -1,7 +1,0 @@
-	int sum = 0;
-	
-	try {
-		sum = new Liquor().sum(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE);
-	} catch(DatabaseException de) {
-		//Log it.
-	}

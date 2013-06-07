@@ -1,6 +1,0 @@
-	Map<String, Object> values = null;
-	try {
-		values = new Liquor().getColumnValues();
-	} catch(DatabaseException de) {
-		//Log it.
-	}

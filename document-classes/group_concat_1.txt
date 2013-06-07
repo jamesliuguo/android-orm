@@ -1,1 +1,0 @@
-	public final int groupConcat(final String columnName) throws DatabaseException;

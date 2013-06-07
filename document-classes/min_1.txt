@@ -1,1 +1,0 @@
-	public final int min(final String columnName) throws DatabaseException;

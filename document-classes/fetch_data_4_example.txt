@@ -1,9 +1,0 @@
-	String[] columnNames = { Liquor.LIQUOR_TYPE };
-	String whereClause = Liquor.LIQUOR_TYPE + "='" + Liquor.LIQUOR_TYPE_BEER + "'";
-	
-	Liquor[] liquors = null;
-	try {
-		liquors = new Beer().fetch(columnNames, whereClause);
-	} catch(DatabaseException de) {
-		//Log it.
-	}

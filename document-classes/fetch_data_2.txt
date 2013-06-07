@@ -1,1 +1,0 @@
-	public final Object[] fetch(final Iterator<String> columnNames) throws DatabaseException;

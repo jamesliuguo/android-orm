@@ -1,6 +1,0 @@
-	Liquor[] liquors = null;
-	try {
-		liquors = new Liquor().fetch();
-	} catch(DatabaseException de) {
-		//Log it.
-	}

@@ -1,8 +1,0 @@
-	int count = 0;
-	String whereClause = Liquor.LIQUOR_TYPE + "='" + Liquor.LIQUOR_TYPE_BEER + "'";
-	
-	try {
-		count = new Liquor().count(whereClause);
-	} catch(DatabaseException de) {
-		//Log it.
-	}

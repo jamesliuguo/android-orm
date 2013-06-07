@@ -1,1 +1,0 @@
-	public final Object[] fetch(final String whereClause, final Iterator<String> columnNames, final Iterator<String> groupBy, final String having) throws DatabaseException;

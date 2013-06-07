@@ -1,8 +1,0 @@
-	int maximum = 0;
-	String groupBy = Liquor.GROUP_BY_COLUMN_NAME;
-	
-	try {
-		maximum = new Liquor().max(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE, gropuBy);
-	} catch(DatabaseException de) {
-		//Log it.
-	}

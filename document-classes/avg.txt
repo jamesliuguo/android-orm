@@ -1,1 +1,0 @@
-	public final int avg(final String columnName) throws DatabaseException;

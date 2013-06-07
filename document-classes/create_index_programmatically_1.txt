@@ -1,1 +1,0 @@
-public static final void createIndex(final DatabaseMappingDescriptor databaseMapping, final Index index) throws DatabaseException;

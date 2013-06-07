@@ -1,1 +1,0 @@
-	public final void delete(final String whereClause) throws DatabaseException { }

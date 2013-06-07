@@ -1,3 +1,0 @@
-		<column variable_name="name-of-variable" column_name="name-of-column">
-			<property name="type">void</property>
-		</column>
