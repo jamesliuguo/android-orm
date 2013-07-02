@@ -57,11 +57,11 @@
         </span>
 
 		<span>
-			<a href="javascript:navIorm()" style="color: inherit; background: transparent;">iOS</a>
+			<a href="javascript:navIosOrm()" style="color: inherit; background: transparent;">iOS</a>
 		</span>
 		
 		<span style="border-right: none;">
-			<a href="javascript:navWindiorm()" style="color: inherit; background: transparent;">Windows</a>
+			<a href="javascript:navWindowsOrm()" style="color: inherit; background: transparent;">Windows</a>
 		</span>
 
     </div>
@@ -151,19 +151,19 @@
         </section>
 
         <aside id="sidebar">
-            <a href="javascript:dwnAndiormJar();" class="button" style="background: url('siminov-resources/images/download-jar-button.png');">
-                <small>Download 0.9 Beta</small>
+            <a href="javascript:dwnAndroidOrmJar091();" class="button" style="background: url('siminov-resources/images/download-jar-button.png');">
+                <small>Download 0.9.1 Beta</small>
                 .jar file
 
             </a>
 
-              <a href="javascript:dwnAndiormZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
-                <small>Download 0.9 Beta</small>
+              <a href="javascript:dwnAndroidOrmZip091();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
+                <small>Download 0.9.1 Beta</small>
                 .zip file
               </a>
 
-              <a href="javascript:dwnAndiormTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
-                <small>Download 0.9 Beta</small>
+              <a href="javascript:dwnAndroidOrmTarZip091();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
+                <small>Download 0.9.1 Beta</small>
                 .tar.gz file
               </a>
 
@@ -173,17 +173,44 @@
 
     <div id="docs-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
         <ul class="dropdown-menu">
+
             <li><a href="javascript:navWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
-            <li><a href="javascript:navJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
+
+			<li>
+				<a href="#">Java Docs<i class="icon-arrow-right"></i></a>
+				
+				<ul class="dropdown-menu sub-menu" style="top:25px;">
+		            <li><a href="javascript:navJavadocs09()" style="color: inherit; background: transparent;">Java Docs - 0.9-Beta</a></li>
+		            <li><a href="javascript:navJavadocs091()" style="color: inherit; background: transparent;">Java Docs - 0.9.1-Beta</a></li>
+				</ul>
+			</li>
+
             <li class="dropdown-divider"></li>
-            <li><a href="javascript:dwnGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
-            <li><a href="javascript:dwnDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
+
+			<li>
+				<a href="#">Getting Started Guide<i class="icon-arrow-right"></i></a>
+				
+				<ul class="dropdown-menu sub-menu"  style="top:60px;">
+		            <li><a href="javascript:dwnGettingStartedGuide09()" style="color: inherit; background: transparent;">Getting Started Guide - 0.9-Beta</a></li>
+		            <li><a href="javascript:dwnGettingStartedGuide091()" style="color: inherit; background: transparent;">Getting Started Guide - 0.9.1-Beta</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Developer Guide<i class="icon-arrow-right"></i></a>
+				
+				<ul class="dropdown-menu sub-menu"  style="top:85px;">
+		            <li><a href="javascript:dwnDevGuide09()" style="color: inherit; background: transparent;">Developer Guide - 0.9-Beta</a></li>
+		            <li><a href="javascript:dwnDevGuide091()" style="color: inherit; background: transparent;">Developer Guide - 0.9.1-Beta</a></li>
+				</ul>
+			</li>
+
         </ul>
     </div>
 
     <div id="outlets-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
         <ul class="dropdown-menu">
-            <li><a href="javascript:navAndiormSample()" style="color: inherit; background: transparent;">Android ORM Example</a></li>
+            <li><a href="javascript:navAndroidOrmSample()" style="color: inherit; background: transparent;">Android ORM Example</a></li>
             <li><a href="javascript:navSQLCipherSample()" style="color: inherit; background: transparent;">SQLCipher Example</a></li>
             <li><a href="javascript:navLibrarySample()" style="color: inherit; background: transparent;">Library Example</a></li>
         </ul>

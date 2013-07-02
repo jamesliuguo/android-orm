@@ -16,23 +16,45 @@ function navWiki() {
     );
 }
 
-function navJavadocs() {
+function navJavadocs09() {
     window.open(
-        javadocs_link,
+        javadocs_link_09,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnGettingStartedGuide() {
+function navJavadocs091() {
     window.open(
-        getting_started_guide_link,
+        javadocs_link_091,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnDevGuide() {
+
+function dwnGettingStartedGuide09() {
     window.open(
-        dev_guide_link,
+        getting_started_guide_link_09,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnGettingStartedGuide091() {
+    window.open(
+        getting_started_guide_link_091,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnDevGuide09() {
+    window.open(
+        dev_guide_link_09,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnDevGuide091() {
+    window.open(
+        dev_guide_link_091,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
@@ -65,24 +87,37 @@ function navDatabaseMappingDescriptor() {
     );
 }
 
-function dwnAndiormJar() {
-    window.location = andiorm_jar_link;
+function dwnAndroidOrmJar09() {
+    window.location = android_orm_jar_link_09;
 }
 
-function dwnAndiormZip() {
-    window.location = andiorm_zip_link;
+function dwnAndroidOrmZip09() {
+    window.location = android_orm_zip_link_09;
 }
 
-function dwnAndiormTarZip() {
-    window.location = andiorm_tar_zip_link;
+function dwnAndroidOrmTarZip09() {
+    window.location = android_orm_tar_zip_link_09;
 }
+
+function dwnAndroidOrmJar091() {
+    window.location = android_orm_jar_link_091;
+}
+
+function dwnAndroidOrmZip091() {
+    window.location = android_orm_zip_link_091;
+}
+
+function dwnAndroidOrmTarZip091() {
+    window.location = android_orm_tar_zip_link_091;
+}
+
 
 function navBuilds() {
     window.location = builds_link;
 }
 
-function navAndiormSample() {
-    window.location = andiorm_sample_link;
+function navAndroidOrmSample() {
+    window.location = android_orm_sample_link;
 }
 
 function navSQLCipherSample() {
@@ -98,16 +133,28 @@ function dwnAndiormSampleJar() {
     window.location = andiorm_sample_apk_link;
 }
 
-function dwnAndiormSampleApk() {
-    window.location = andiorm_sample_apk_link;
+function dwnAndroidOrmSampleApk09() {
+    window.location = android_orm_sample_apk_link_09;
 }
 
-function dwnAndiormSampleZip() {
-    window.location = andiorm_sample_zip_link;
+function dwnAndroidOrmSampleApk091() {
+    window.location = android_orm_sample_apk_link_091;
 }
 
-function dwnAndiormSampleTarZip() {
-    window.location = andiorm_sample_tar_zip_link;
+function dwnAndroidOrmSampleZip09() {
+    window.location = android_orm_sample_zip_link_09;
+}
+
+function dwnAndroidOrmSampleZip091() {
+    window.location = android_orm_sample_zip_link_091;
+}
+
+function dwnAndroidOrmSampleTarZip09() {
+    window.location = android_orm_sample_tar_zip_link_09;
+}
+
+function dwnAndroidOrmSampleTarZip091() {
+    window.location = android_orm_sample_tar_zip_link_091;
 }
 
 function navHome() {
@@ -272,9 +319,9 @@ function navEndTransaction() {
 
 }
 
-function viewAndiormSample() {
+function viewAndroidOrmSample() {
     window.open(
-        andiorm_github_sample_link,
+        android_orm_github_sample_link,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
@@ -286,20 +333,37 @@ function viewSQLCipherSample() {
     );
 }
 
-function dwnSQLCipherSampleApk() {
-    window.location = sqlcipher_sample_apk;
+function dwnSQLCipherSampleApk09() {
+    window.location = sqlcipher_sample_apk_09;
 }
 
-function dwnSQLCipherSampleJar() {
-    window.location = sqlcipher_sample_jar;
+function dwnSQLCipherSampleJar09() {
+    window.location = sqlcipher_sample_jar_09;
 }
 
-function dwnSQLCipherSampleZip() {
-    window.location = sqlcipher_sample_zip;
+function dwnSQLCipherSampleZip09() {
+    window.location = sqlcipher_sample_zip_09;
 }
 
-function dwnSQLCipherSampleTarZip() {
-    window.location = sqlcipher_sample_tar;
+function dwnSQLCipherSampleTarZip09() {
+    window.location = sqlcipher_sample_tar_09;
+}
+
+
+function dwnSQLCipherSampleApk091() {
+    window.location = sqlcipher_sample_apk_091;
+}
+
+function dwnSQLCipherSampleJar091() {
+    window.location = sqlcipher_sample_jar_091;
+}
+
+function dwnSQLCipherSampleZip091() {
+    window.location = sqlcipher_sample_zip_091;
+}
+
+function dwnSQLCipherSampleTarZip091() {
+    window.location = sqlcipher_sample_tar_091;
 }
 
 function navMembers() {
@@ -344,6 +408,10 @@ function dwnAndiorm09Jar() {
     window.location = dwn_andiorm_09_beta_jar;
 }
 
+function dwnAndiorm091Jar() {
+    window.location = dwn_andiorm_091_beta_jar;
+}
+
 function dwnAndiormLibrary09Jar() {
     window.location = dwn_andiorm_library_09_beta_jar;
 }
@@ -352,12 +420,12 @@ function navSiminovGithub() {
     window.location = siminov_github_link;
 }
 
-function navIorm() {
-    window.location = iorm_page_link;
+function navIosOrm() {
+    window.location = ios_orm_page_link;
 }
 
-function navWindiorm() {
-    window.location = windiorm_page_link;
+function navWindowsOrm() {
+    window.location = windows_orm_page_link;
 }
 
 function viewLibrarySample() {
