@@ -1,0 +1,15 @@
+public class HomeActivity extends Activity {
+	
+	public void onCreate(Bundle savedInstanceState) {
+		initializeSiminov();
+	}
+
+	private void initializeSiminov() {
+
+	IInitializer initializer = siminov.orm.Siminov.initialize();
+		initializer.addParameter(getApplicationContext());
+		
+		initializer.start();
+	}
+
+}
